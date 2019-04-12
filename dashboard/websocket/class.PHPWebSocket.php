@@ -1,21 +1,19 @@
 <?php
-
 /*
-	Based on PHP WebSocket Server 0.2
-	 - http://code.google.com/p/php-websocket-server/
-	 - http://code.google.com/p/php-websocket-server/wiki/Scripting
+Based on PHP WebSocket Server 0.2
+ - http://code.google.com/p/php-websocket-server/
+ - http://code.google.com/p/php-websocket-server/wiki/Scripting
 
-	WebSocket Protocol 07
-	 - http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-07
-	 - Supported by Firefox 6 (30/08/2011)
+WebSocket Protocol 07
+ - http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-07
+ - Supported by Firefox 6 (30/08/2011)
 
-	Whilst a big effort is made to follow the protocol documentation, the current script version may unknowingly differ.
-	Please report any bugs you may find, all feedback and questions are welcome!
+Whilst a big effort is made to follow the protocol documentation, the current script version may unknowingly differ.
+Please report any bugs you may find, all feedback and questions are welcome!
 */
 
-
-class PHPWebSocket
-{
+class PHPWebSocket {
+	
 	// maximum amount of clients that can be connected at one time
 	const WS_MAX_CLIENTS = 100;
 
