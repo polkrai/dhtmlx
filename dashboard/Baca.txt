@@ -1,0 +1,6 @@
+Langkah-langkah:
+1. Extract ke root directory web server.
+2. Import crud.sql ke DB
+3. Edit Database Connection di form.php dan grid.php
+4. Test access localhost/dashboard/grid.php pada web browser, output berupa XML
+5. Demo langsung di localhost/dashboard
